@@ -1,21 +1,16 @@
+name 'metasploit'
+maintainer 'Rapid7 Inc.'
+homepage 'rapid7.com'
 
-name "metasploit"
-maintainer "CHANGE ME"
-homepage "CHANGEME.com"
-
-replaces        "metasploit"
-install_path    "/opt/metasploit"
-build_version   Omnibus::BuildVersion.new.semver
+replaces        'metasploit'
+install_path    '/opt/metasploit'
+build_version   '4.7.0'
 build_iteration 1
 
 # creates required build directories
-dependency "preparation"
+dependency 'preparation'
+dependency ''
+dependency 'version-manifest'
 
-# metasploit dependencies/components
-# dependency "somedep"
-
-# version manifest file
-dependency "version-manifest"
-
-exclude "\.git*"
-exclude "bundler\/git"
+exclude '\.git*'
+exclude 'bundler\/git'
