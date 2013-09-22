@@ -9,7 +9,7 @@ build_iteration 1
 
 # creates required build directories
 dependency 'preparation'
-dependency ''
+dependency 'metasploit-framework'
 dependency 'version-manifest'
 
 exclude '\.git*'
