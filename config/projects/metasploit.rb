@@ -3,7 +3,7 @@ maintainer 'Rapid7 Inc.'
 homepage 'rapid7.com'
 
 replaces        'metasploit'
-install_path    '/opt/metasploit'
+install_path    '/opt/rapid7/metasploit'
 build_version   '4.7.0'
 build_iteration 1
 

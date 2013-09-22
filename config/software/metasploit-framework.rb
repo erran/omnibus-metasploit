@@ -9,6 +9,7 @@ source :url => 'https://github.com/rapid7/metasploit-framework/archive/4.7.0.tar
        :md5 => '45a13768b636265a4a34271df22318ea'
 
 dependency 'curl'
+dependency 'postgresql'
 dependency 'rsync'
 dependency 'ruby'
 
